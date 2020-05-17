@@ -14,7 +14,7 @@ termux-setup-storage
 time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 
 gem install lolcat
-
+sudo rm -rf /data/data/com.termux/files/home/Automation
 sudo git clone https://github.com/lokendrabanna/Automation
-sudo chmod a+x $Home/Automation/Automation.sh
-sudo bash $Home/Automation/Automation.sh
+sudo chmod a+x /data/data/com.termux/files/home/Automation/Automation.sh
+sudo bash /data/data/com.termux/files/home/Automation/Automation.sh
