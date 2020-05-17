@@ -15,7 +15,6 @@ time apt install ruby pv toilet tsu git wget screenfetch figlet -y
 
 gem install lolcat
 
-sudo 'find . -iname '*Automation.sh*' -exec rm -rf {} \;'
-sudo git clone https://github.com/lokendrabanna/Automation -O ./Automation.sh
-sudo chmod a+x Automation.sh
-sudo ./Automation.sh
+sudo git clone https://github.com/lokendrabanna/Automation
+sudo chmod a+x $Home/Automation/Automation.sh
+sudo bash $Home/Automation/Automation.sh
